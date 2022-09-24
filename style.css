@@ -1,0 +1,57 @@
+/* home page */
+
+body {
+  background: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: peachpuff;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  color: white;
+  background: brown;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: white;
+  background: blueviolet;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.anime {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.anime img {
+  border: 5px solid blueviolet;
+}
